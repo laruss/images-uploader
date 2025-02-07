@@ -36,6 +36,7 @@ export class BKTree {
             return;
         }
         let current = this.root;
+        // eslint-disable-next-line no-constant-condition
         while (true) {
             const dist = hammingDistanceBigInt(current.hash, hash);
             if (current.children.has(dist)) {
@@ -61,6 +62,7 @@ export class BKTree {
         let current = this.root;
         let parent: BKTreeNode | null = null;
         let parentDist = 0;
+        // eslint-disable-next-line no-constant-condition
         while (true) {
             const dist = hammingDistanceBigInt(current.hash, hash);
             if (dist === 0) {

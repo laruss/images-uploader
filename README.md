@@ -47,3 +47,9 @@ $ bun run build:mac
 ## License
 
 MIT
+
+## TODO
+
+- [ ] Move to Tauri to avoid Electron vulnerabilities and reduce bundle size
+- [ ] Add images preview
+- [ ] Add tests

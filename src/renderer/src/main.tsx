@@ -8,5 +8,5 @@ import { StoreProvider } from './app/store';
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <StoreProvider>
         <App />
-    </StoreProvider>
+    </StoreProvider>,
 );

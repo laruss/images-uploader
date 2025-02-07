@@ -8,6 +8,7 @@ type NewImageProps = {
     tree: BKTree;
 };
 
+// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
 export const newImage = ({ hash, buffer, tree }: NewImageProps) => {
     tree.insert(hash);
     const images = store.get('uploadedImages');

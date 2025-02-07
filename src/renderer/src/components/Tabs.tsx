@@ -1,9 +1,9 @@
-import { useState } from 'react';
+import { ReactElement, useState } from 'react';
 import { UploadedImages } from './UploadedImages';
 import { Settings } from './Settings';
 import { useStore } from '@renderer/app/store';
 
-export const Tabs = () => {
+export const Tabs = (): ReactElement | null => {
     // State to track the active tab
     const [activeTab, setActiveTab] = useState<'uploadedImages' | 'settings'>('uploadedImages');
     const [store] = useStore();

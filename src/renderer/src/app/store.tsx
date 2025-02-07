@@ -1,4 +1,4 @@
-import { createContext, ReactNode, useContext, useState } from 'react';
+import { createContext, ReactElement, ReactNode, useContext, useState } from 'react';
 import { StoredSettings, StoreKey, StoreType } from '@preload/store';
 
 export type FetchStoreType = (key?: StoreKey) => void;
@@ -21,9 +21,10 @@ const StoreContext = createContext<StoreContextType>({
     fetchStore: () => {},
 });
 
-const ipcGetStoreValue = async <K extends StoreKey>(key: K) => await window.api.getStoreValue(key);
+const ipcGetStoreValue = async <K extends StoreKey>(key: K): Promise<StoreType[K]> =>
+    await window.api.getStoreValue(key);
 
-export const StoreProvider = ({ children }: { children: ReactNode }) => {
+export const StoreProvider = ({ children }: { children: ReactNode }): ReactElement => {
     const [store, setStore] = useState<StoreType | null>(null);
 
     const fetchStore: FetchStoreType = (key) => {

@@ -92,7 +92,7 @@ function hammingDistance(hash1: string, hash2: string): number {
 export function areHashesSimilar(
     hash1: string,
     hash2: string,
-    similarityThreshold: number
+    similarityThreshold: number,
 ): boolean {
     const totalBits = 64; // dHash produces a 64-bit hash.
     const distance = hammingDistance(hash1, hash2);

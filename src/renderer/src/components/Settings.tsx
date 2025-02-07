@@ -1,4 +1,4 @@
-import { useState, useEffect, FC } from 'react';
+import { useState, useEffect, FC, ChangeEvent } from 'react';
 import { useStore } from '@renderer/app/store';
 import { InputField } from '@renderer/components/InputField';
 import { StoredSettings } from '@preload/store';
@@ -55,13 +55,15 @@ export const Settings: FC<SettingsProps> = ({ settings }) => {
     // Local state for settings form
     const [localSettings, setLocalSettings] = useState<StoredSettings>(settings);
     const [isDirty, setIsDirty] = useState(false);
-    const saveSettingsMutation = async () =>
+    const saveSettingsMutation = async (): Promise<void> =>
         await window.api.setStoreValue('settings', localSettings);
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [_, fetchStore] = useStore();
 
     // Generic change handler for input fields
     const handleChange =
-        (field: keyof StoredSettings) => (e: React.ChangeEvent<HTMLInputElement>) => {
+        (field: keyof StoredSettings) =>
+        (e: ChangeEvent<HTMLInputElement>): void => {
             let value: string | number = e.target.value;
             // Convert value to number if the original type is number
             if (typeof settings[field] === 'number' && value) {
@@ -85,7 +87,7 @@ export const Settings: FC<SettingsProps> = ({ settings }) => {
 
     return (
         <div className="space-y-4">
-            {settingsFields.map(({label, name, type}) => (
+            {settingsFields.map(({ label, name, type }) => (
                 <InputField
                     key={name}
                     label={label}

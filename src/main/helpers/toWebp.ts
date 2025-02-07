@@ -21,7 +21,7 @@ export async function convertPngToWebp({
     imagePng,
     maxSizeInMb,
     maxSizePerSide,
-    maxQuality = 90
+    maxQuality = 90,
 }: ConvertImageToWebpOptions): Promise<Buffer> {
     const maxSizeInBytes = maxSizeInMb * 1024 * 1024;
     let quality = maxQuality;
@@ -32,7 +32,7 @@ export async function convertPngToWebp({
             .resize({
                 width: maxSizePerSide,
                 height: maxSizePerSide,
-                fit: 'inside'
+                fit: 'inside',
             })
             .webp({ quality: q })
             .toBuffer();

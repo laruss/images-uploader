@@ -21,7 +21,7 @@ export const UploadedImages: FC<UploadedImagesProps> = ({ images }) => {
     // Reverse the images array so that the latest image appears on top
     const sortedImages = [...images].reverse();
 
-    const deleteImage = async (image: StoredImage) => {
+    const deleteImage = async (image: StoredImage): Promise<void> => {
         await window.api.setStoreValue(
             'uploadedImages',
             images.filter((i) => i.hash !== image.hash),
@@ -35,7 +35,7 @@ export const UploadedImages: FC<UploadedImagesProps> = ({ images }) => {
     };
 
     // Function to "open" an image if its status is 'done'
-    const openImage = (image: StoredImage) => {
+    const openImage = (image: StoredImage): void => {
         const downloadPath = store?.settings.downloadPath;
         const domain = store?.settings.domain;
 

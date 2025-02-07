@@ -4,7 +4,100 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9b32f54-423e-405d-b50d-ee16af1d885a" name="Changes" comment="" />
+    <list default="true" id="e9b32f54-423e-405d-b50d-ee16af1d885a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/entitlements.mac.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/icon.icns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/icon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bun.lockb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev-app-update.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electron-builder.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electron.vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/bun.lockb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/public/icon-with-shadow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/public/icon/128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/public/icon/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/public/icon/32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/public/icon/48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/public/icon/96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/src/background.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/src/content.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/src/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/src/popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/src/popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/src/popup.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/src/vite-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/tray/activeIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/tray/idleIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/trayIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/app.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/clipboardWatcher.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/globals.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/helpers/bkTree.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/helpers/checkSettingsValid.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/helpers/clipboard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/helpers/downloadImage.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/helpers/idleTimer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/helpers/imagesList.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/helpers/newImage.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/helpers/similiarity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/helpers/toWebp.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/imageProcessor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/imageWorker/imageWorker.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/imageWorker/imageWorker.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/imageWorker/imageWorker.worker.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/imageWorker/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/imageWorker/uploadImage.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/store/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/store/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/tray.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/tree.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/window.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/preload/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/preload/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/preload/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/preload/store.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/app/store.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/assets/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/components/InputField.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/components/Modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/components/Settings.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/components/Tabs.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/components/UploadedImages.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/src/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.web.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uno.config.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +115,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -30,21 +126,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/konstantin/WebstormProjects/imagesUploader/resources/tray&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/konstantin/WebstormProjects/imagesUploader/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/konstantin/WebstormProjects/imagesUploader/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/konstantin/WebstormProjects/imagesUploader/resources/tray",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/konstantin/WebstormProjects/imagesUploader/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "/Users/konstantin/WebstormProjects/imagesUploader/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/tray" />
@@ -81,7 +178,7 @@
       <workItem from="1738741730587" duration="7310000" />
       <workItem from="1738763151128" duration="23501000" />
       <workItem from="1738861485073" duration="90000" />
-      <workItem from="1738861700337" duration="5193000" />
+      <workItem from="1738861700337" duration="5976000" />
     </task>
     <servers />
   </component>
